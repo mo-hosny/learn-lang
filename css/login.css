@@ -1,0 +1,157 @@
+body{
+    direction: rtl;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+}
+/* الهيد */
+.heed{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+.ax a{
+    color: #adadad;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.ax a:hover{
+    color: #ad9d9d;
+}
+.botm{
+    margin-top: 13px;
+}
+.botm a{
+    height: 45px;
+    border: 2px solid #cecece;
+    border-bottom: 4px solid #cecece;
+    padding: 10px;
+    border-radius: 19px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1899d6;
+}
+.botm a:hover{
+    background: rgba(211, 208, 208, 0.5);
+    border-bottom: 2px solid #cecece;
+}
+/* #7B7575 */
+/* تسجيل الدخول */
+.container{
+    width: 373px;
+    margin:45px auto 0 auto;
+}
+.container1{
+    width: 373px;
+    margin:15px auto 0 auto;
+}
+.adrs{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login{
+    display: flex;
+    flex-flow: column;
+    position: relative;
+}
+.inb{
+    background: rgba(175, 175, 190, 0.1);
+    border: 2px solid rgba(175, 175, 190, 0.2);
+    border-radius: 17px;
+    line-height: 27px;
+    padding: 7px 10px;
+    font-size: 18px;
+    color: #757585;
+    margin-bottom: 10px;
+}
+.inb:focus{
+    outline: none;
+}
+.forget{
+    position: absolute;
+    top:70px;
+    left: 15px;
+    color: #757585;
+    font-weight: 700;
+    font-size: 12px;
+}
+.forget:hover{
+    color: #373738;
+}
+.go{
+    background: #1AA8EB;
+    color: #fff;
+    border-bottom: 5px solid #1899d6;
+    border-radius: 15px;
+    line-height: 27px;
+    padding: 7px 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.go:hover{
+    background: #3ab8f1;
+}
+.or{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 25px 0;
+    position: relative;
+}
+.or hr{
+    width: 150px;
+    background: #adadad;
+    height: 1px;
+}
+.or span{
+    position: absolute;
+    top: -11px;
+    left: 179px;
+    color: #adadad;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    
+    position: relative;
+}
+.social a{
+    width: 177px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.social .de{
+    color: #3B5998;
+}
+.social .google{
+    width: 23px;
+    height: 21px;
+    position: absolute;
+    top: 12px;
+    left: 122px;
+}
+.social .face{
+    width: 29px;
+    height: 30px;
+    position: absolute;
+    top: 9px;
+    left: 321px
+}
+.info{
+    color: #757585;
+    text-align: center;
+    margin-top: 15px;
+}

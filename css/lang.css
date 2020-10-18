@@ -1,0 +1,79 @@
+body{
+    direction: rtl;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+}
+.hd{
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 25px 0 0 30px;
+}
+.hd a{
+    height: 45px;
+    border: 2px solid #cecece;
+    border-bottom: 4px solid #cecece;
+    border-radius: 19px;
+    padding: 7px 8px 0;
+    font-size: 20px;
+    font-weight: 600;
+    
+    color: #1899d6;
+}
+.hd a:hover{
+    background: rgba(211, 208, 208, 0.5);
+    border-bottom: 2px solid #cecece;
+}
+.container{
+    width: 460px;
+    margin:90px auto 0 auto;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content .item{
+    width: 220px;
+    height: 250px;
+    border: 3px solid #cecece;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.content .item:hover{
+    background: rgba(206, 206, 206, 0.2);
+}
+.imo{
+    margin-top: 13px;
+    position: relative;
+}
+.imo .opo{
+    position: absolute;
+    top: 0;
+    left: 43px;
+    z-index: -1;
+    transition: all 0.2s;
+}
+.content .item:hover .imo .opo{
+    z-index: 1;
+}
+.imo p{
+    color: #000;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.imo span{
+    color: #ada6a6;
+    font-size: 17px;
+}
